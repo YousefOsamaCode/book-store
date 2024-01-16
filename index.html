@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yousef-Osama</title>
+    <meta charset="UFT-8"/>
+        <!-- دي ميتا ترميز الموقع علشان الكلام العربي يظهر عربي -->
+    <meta name "Elesaily" content "v1.0" />
+        <!-- دي ميتا خاصه بالشمهندس عسيلي -->
+    <meta name="description" content="this is our book store" />
+        <!--دي وصف الموقع بتاعك -->
+    <meta name="copyright" content="your company or brand name" />
+        <!-- دي ميتا لاخبار الاشخاص ان موقعك عليه حقوق فكريه -->
+    <meta name="auther" content="ELesaiLY" />
+        <!-- دي ميتا لاثبات الكاتب او المؤلف لمحتوي الصفحه -->
+<!-- في قيمة الصفات ينفع نكتب دابل كود او سنجل كود ولو كلمه واحده ممكن منكتبش خالص بعد يساوي -->
+
+    <style>
+      body{
+        background-color:rgb(0 253 227);
+      } 
+    </style>
+    <script></script>
+    <link rel="stylesheet" href=""/>
+  </head>
+  <body>
+    <!-- <h1-h6> -->
+    <h1>ELesaiLY Book store</h1>
+      <h2>chapter title inside book</h2> 
+        <h3>story title inside book</h3>
+            <h4>the first situation</h4>
+                <h5>the second situation</h5>
+                  <h6>the third situaion</h6>
+
+  <!--
+    class=> تميز البراجراف بشيء
+    hedden=> صفه تخفي البرجراف
+    b => Bold
+    Strong => Bold => important text
+    i => Italic
+    em => Emphasized => important text
+    mark => Marked text or Highlighted
+    u => Underline
+    small => Smeller Text
+    del => Deleted Text
+    ins => Inserted Text
+    sub => Subscript
+    sup => Superscript
+  -->
+      <p hidden>We have A Big sale</p> 
+      <p class="one">This Is My <b>Book Store</b>,Welcome </p>  
+      <p>This Is My <strong>Book Store</strong>,Welcome </p>  
+      <p>This Is My <i>Book Store</i>,Welcome </p>  
+      <p>This Is My <em>Book Store</em>,Welcome </p>  
+      <p>This Is My Book Store,<mark>Welcome</mark> </p>  
+      <p>This Is My Book Store,<u>Welcome</u> </p>  
+      <p>This Is My Book Store,<small>Welcome</small> </p>  
+      <p>This Is My Book Store,<del>Welcome</del> </p> 
+      <p><del>100$</del>80$</p> 
+      <p>This Is My <ins>Book Store</ins>,Welcome </p>  
+      <p>h<sub>2</sub>o</p>
+      <p>1478<sup>2</sup></p>
+      <p class="two">We have A Big sale</p>
+
+  <!--
+    target=> مكان فتح الصفحه
+    title=> النص الذي يظهر عند وضع السهم علي الكلمه
+    lorem+tab=> تكتب نصوص للتجربه
+    id=> تعطي اسم للعنصر او النص او البراجراف
+  -->
+      <a href="https://google.com" target="_blank">Google</a>
+      <a href="https://facebook.com" title="go to facebook">Facebook</a>
+      <a href="yousef.html" title="هذه صفحتي" target="_blank">test page</a>
+      <a href="#yousef" title="go to read">youssef pragraph</a>
+      <a href="mailto:yousefosos1722005@gmail.com">email me</a>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p id="yousef"> the Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+  <!--
+    src=> source المكان اللي فيه الصوره
+    alt=> Alternate Text 
+    width=> حجم الصوره
+    hight=> ارتفاع الصوره
+    folder/=>لاضافة صوره داخل الفولدر
+    ../=>لاضافة صوره خارج الفولدر
+    width=>حجم الصوره
+    hight=>ارتفاع الصوره
+  -->
+      <img src="imgs/photo1.jpg" alt="logo testing" width="50px" height="50px">
+      <img src="imgs/photo2.jpg" alt="logo testing" width="50px" hight="50px">
+
+  <!--
+    ui=>unorderd List
+    li=>List item
+    ol=>orded List
+    reversed=>صفه تعكس الترتيب
+    start=> (ترتيب الحرف كرقم)صفه تحدد بداية الترتيب سواء للارقام او الحروف او الارقام الرومانيه
+    type=> تحديد الترتيب اذا كان ارقام او حروف كابتل او صمول او رومانيه
+    value=> <li> تحديد قيمة 
+    dl=>Description list
+    dt=>Term
+    dd=>Description Term
+  -->
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+          JS
+          <ul>
+            <li>Angular</li>
+            <li>Reactjs</li>
+            <li>Vuejs</li>
+          </ul>
+        </li>
+      </ul>
+    <!--Separator-->
+      <ol reversed start="100">
+        <li value="100">Name</li>
+        <li>Adsress</li>
+        <li>id</li>
+      </ol>
+    <!--Separator-->
+      <dl>
+        <dt>HTML</dt>
+        <dd>Language of The web</dd>
+        <dd>The Frist Lan</dd>
+      </dl>
+      <dl>
+        <dt>CSS</dt>
+        <dd>Lnaguage of The web</dd>
+        <dd>The Sacond Lan</dd>
+      </dl>
+
+  <!--
+    table=>الجدول
+    thead=> راس الجدول
+    tbody=>محتوي الجدول
+    tfoot=>ذيل الجدول مثل التوتال 
+    tr=>ءTable Row صف من الخلايا 
+    td=>بينات الخليه
+    th=>Table Header Cell
+    border=>صفه تنسق الجدول
+    caption=>عنوان الجدول
+    colspan=>صفه لدمج الخلايا
+  -->
+      <table border="1">
+        <caption>Students Marks</caption>
+        <thead>
+          <tr>
+            <th>Frist</th>
+            <th>Last</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yousef</td>
+            <td>Osama</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Yousef</td>
+            <td>Nasser</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Seif</td>
+            <td>Yasser</td>
+            <td>40</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <td colspan="2">Total</td>
+          <td>160</td>
+        </tfoot>
+      </table>
+
+  <!--
+    span=> عنصر ان لاين يستخدم لعزل كلمه او جمله لوحدها لتنسيقها
+    br=>ينشألك سطر جديد
+    hr=>عنصر بلوك ينشألك خط
+  -->
+      <p>This Is <span>My</span> Website,Hello</p>
+      <p>This Is Second Paragraph, <br> Test </p>
+  <!--
+    div=>يجمع العناصر للتعامل معاهم مره واحده كانهم عنصر واحد
+  -->
+  <hr><hr>
+      <div class="romantic">
+        <div class="one">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+        <div class="two">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+        <div class="three">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+      </div>
+  <hr>
+      <div class="Police">
+        <div class="one">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+        <div class="two">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+        <div class="three">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+      </div>
+  <hr>
+      <div class="fantasy">
+        <div class="one">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+        <div class="two">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+        <div class="three">
+          <h3>Book Title</h3>
+          <p>Book Description</p>
+          <span>100$</span>
+        </div>
+      </div>
+  <hr>
+  <!--
+    &lt;=>less than علامة أصغر من
+    &amp=>&
+    &copy;=>©
+    &asymp=>≈
+    &radic=>√
+  -->
+      <p>
+        &lt;p&gt;
+        &copy;
+        &asymp;
+        &radic;
+      </p>
+
+  <!--
+    header=>Head Of Website
+    nav=>navigation
+    section=> المحتوي الرئيسي وممكن استخدام نفس العنصر بداخل ليكون المحتوي علي اليمين
+    aside=>ليكون المحتوي علي اليسار section يستخدم بداخل ال 
+    footer=>
+  -->
+      <header>
+        head of website
+      </header>
+      <nav>
+        Link - Link - Link
+      </nav>
+      <section>
+        <section>
+          cotent on the right
+        </section>
+        <aside>
+          cotent on the left
+        </aside>
+      </section>
+
+<!--divتصميم بنية موقع موقع باستخدام ال -->
+      <div class="header">
+        <h2>Logo</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contant Us</li>
+        </ul>
+      </div>
+  <hr>
+      <div class="navegation">
+        <ul>
+          <li>Link1</li>
+          <li>Link2</li>
+          <li>Link3</li>
+        </ul>
+      </div>
+  <hr>
+      <div class="content">
+        <img src="imgs/photo1.jpg" alt="logo Testing" width="50px" height="50px">
+        <p>Content</p>
+      </div>
+      <div class="sidebar">
+        Sidebar
+      </div>
+  <hr>
+      <div class="footer">
+        Footer
+      </div>
+  <hr>
+  <hr>
+
+  <!--Semantic Elementsتصميم بينة موقع باستخدام ال-->
+      <header>
+        <h2>Logo</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contant Us</li>
+        </ul>
+      </header>
+  <hr>
+      <nav>
+        <ul>
+          <li>Link1</li>
+          <li>Link2</li>
+          <li>Link3</li>
+        </ul>
+      </nav>
+  <hr>
+      <section>
+        <img src="imgs/photo2.jpg" alt="logo Testing" width="50px" height="50px">
+        <p>Content</p>
+      </section>
+  <hr>
+      <figure>
+        <img src="imgs/photo1.jpg" alt="Logo Testing" width="50px" hight="50px">
+        <figcaption>Coption Of The Imge</figcaption>
+      </figure>
+  <hr>
+      <article>
+        Articels
+      </article>
+  <hr>
+      <aside>
+        Sidebar
+      </aside>
+  <hr>
+      <footer>
+        Footer
+      </footer>
+  <hr>
+
+  <!--
+    source=>يستخدم في اضافة اكثر من امتداد للملف بسبب اذاكان هناك متصفح لا يدعم امتداد منهم
+    type=>نوع الملف
+    controls=>لاظهار لوحة تشغيل الملف الصوتي
+    autoplay=>يشغل الملف الصوتي تلقائي بمجرد فتح المتصفح
+    loop=>يجعل الملف الصوتي عندما ينتهي يعيد من االاول
+    muted=>يجعل الملف الصوتي صامت
+  -->
+      <p>
+        <audio controls>
+          <source src="Media/Nahia-slow.mp3" type="audio/mpeg">
+          <source src="Media/Nahia-slow.ogg" type="audio/ogg">
+          <source src="Media/Nahia-slow.wav" type="audio/wav">
+          Your Browser Does Not Support Audio Tag
+        </audio>
+      </p>
+
+  <!--
+    width=عرض الفيديو
+    hight=>ارتفاع الفيديو
+    poster=>صوره مصغره للفيديو
+    track=>نضع بداخله الملف الخاص بالترجمه
+    vtt=> video text track هوا امتداد ملف الترجمه او اسمه 
+    kind=>نوع الملف سواء ترجمه
+    subtitles=>وهي ترجمات الفيديو
+    srclang=> نوع اللغه المترجم بها الفيديو
+    Label=>اسم اللغه المترجم لها
+    preload=>تحدد كيفية تحميل الفيديو
+    none=>القيمه الافتراضيه وهي لا تحمل اي بينات  للفيديو الا عند تشغيل المستخدم الفيديو
+    metadata=>تحمل معلومات الفيديو فقط مثل الوقت والابعاد
+    auto=>تحمل الفيديو بالكامل وهذا يسبب في بطئ الصفحه
+  -->
+      <p>
+        <video controls width="600" hight="400" poster="imgs/photo3.jpg" preload="metadata">
+          <source src="Media/Islamic.mp4" type="video/mp4">
+          <source src="media/Islamic.ogg" type="video/ogg">
+          <track src="Media/my-file-en.vtt" kind="subtitles" srclang="en" label="English">
+          <track src="Media/my-file-it.vtt" kind="subtitles" srclang="it" label="Italic">
+          Your Browser Does Not Support Video Tag
+        </video>
+      </p>
+
+    <!--
+    form=>النموذج
+    input=>حقل الادخال
+    type=>نوع البيانات في حقل الادخال
+    label=> محتاج بيانات ايه input يوصف ال
+    submit=>لارسال البيانات input typeنوع في ال
+    required=>لجعل ملئ الحقل اجباري
+    placeholder=>labelلوصف الحقل ولكن بداخله بدلا من ال
+    value=>القيمه التي تظهر في الحقل
+    action=> الذي يرسل له بينات الفورمphpيربط به ملف ال
+    name=>اسم الحقل عند ارساله في السيرفر
+    method=>طريقة ارسال البيانات
+    GET=>يرسل البيانات مع اظهارها في اللينك اعلي الصفحه
+    POST=>يرسل البيانات مع اخفائها
+    hidden=>ولا تريد المستخدم ان يراهاidيستخدم لاخفاء حقل يرسل به بيانات خاصه بالموقع مثل ال
+    reset=>يستخد لالغاء جميع البيانات المكتوبه في الحقل
+    color=>اختيار اللون
+    Range=>نطاق او من الي 
+    min=>اصغر قيمه
+    max=اكبر قيمه
+    step=>قيمة الخطوه او القفزه التي يتحركها
+    value in range=>القيمه التي يبدا من خلالها التحرك
+    number=>حقل ادخال ارقام فقط
+    readonly=>يجعل بيانات الحقل لا يمكن التعديل عليها ولكن يرسلها مع البيانات
+    disabled=>يجعل بيانات الحقل لا يمكن التعديل عليها ولكن لا يرسلها مع البيانات
+    autofocus=>يجعل عند تحميل الصفحه باختيار الحقل المحدد للكتابه
+    lingth=>عدد الحروف او الارقام المكتوبه في الحقل
+    minlingth=>اقل عدد حروف او ارقام في الحقل
+    maxlingth=>اكبر عدد حروف او ارقام في الحقل
+  -->
+      <form action="" method="post">
+        <input type="text" value="id:192.168.1.1" hidden>
+        <div>
+          <label>Username</label>
+          <input type="text" required placeholder="Username" name="Us" readonly>
+        </div>
+        <br>
+        <div>
+          <label>Subject</label>
+          <input type="text" name="Sub">
+        </div>
+        <br>
+        <div>
+          <label>Password</label>
+          <input type="password" required name="Pass" minlength="10" maxlength="20">
+        </div>
+        <br>
+        <div>
+          <label>Email</label>
+          <input type="email" required value="o@nn.sa" name="mail" disabled>
+        </div>
+        <br>
+        <div>
+          <label>Color</label>
+          <input type="color" name="Color">
+        </div>
+        <br>
+        <div>
+          <label>Range</label>
+          <input type="range" name="range" min="0" max="100" value="0" step="20">
+        </div>
+        <br>
+        <div>
+          <label>Number</label>
+          <input type="number" name="Number" min="10" max="100" value="0" step="10">
+        </div>
+        <br>
+        <div>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Save">
+        </div>
+      </form>
+    <hr>
+
+  <!-- 
+    Radio=>اختيار عنصر واحد فقط من من العناصر
+    checked=>عندما نفتح الصفحه يكون الحقل المحدد مختار
+    Checkbox=>اختيار اكترمن عنصر في نفس الفورم
+    for=>labelلربط حقل الادخال بالاسم او ال
+    id= بنفس الاسم في نفس الصفحهidرقم او اسم للعنصر لاستدعائه في اي وقت ولا يمكن ان يكرر ال
+  -->
+      <form>
+        <div>
+          <input id="win" type="radio" name="os" value="Windows" checked>
+          <label for="win">Windows</label>
+        </div>
+      <br>
+        <div>
+          <input id="lin" type="radio" name="os" value="Linux">
+          <label for="lin">Linux</label>
+        </div>
+      <br>
+        <div>
+          <input id="mac" type="radio" name="os" value="Mac">
+          <label for="mac">Mac</label>
+        </div>
+      <br>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Save">
+        </div>
+      </form>
+  <hr>
+      <form>
+        <div>
+          <input id="h" type="checkbox" name="os" value="HTML">
+          <label for="h">HTML</label>
+        </div>
+      <br>
+        <div>
+          <input id="l" type="checkbox" name="os" value="CSS">
+          <label for="l">CSS</label>
+        </div>
+      <br>
+        <div>
+          <input id="j" type="checkbox" name="os" value="JavaScript">
+          <label for="j">JavaScript</label>
+        </div>
+      <br>
+        <div>
+          <input id="p" type="checkbox" name="os" value="PHP">
+          <label for="p">PHP</label>
+        </div>
+    <br>
+        <div>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Save">
+        </div>
+      </form>
+    <hr>
+
+  <!-- 
+    select=>تستخدم في اختيار عنصر من حقول كثبره جدا
+    option=>selectالقيم او الحقول الموجود في ال
+    optgroup=>لضم مجموعه من الحقول باسم واحد 
+    multiple=>لاختيار اكثر من عنصر في الحقول
+    selected=>لجعل الصفحه عند التحميل باختيار العنصر المحدد
+    textarea=>منطقه لكتابو النصوص
+  -->
+      <form>
+        <label for="book">Choose Book</label>
+        <select name="book" id="book">
+          <optgroup label="Romantic books">
+            <option value="1">Book1</option>
+            <option value="2">Book2</option>
+            <option value="3">Book3</option>
+          </optgroup>
+          <optgroup label="Police books">
+            <option value="4" selected>Book4</option>
+            <option value="5">Book5</option>
+            <option value="6">Book6</option>
+          </optgroup>
+        </select>
+    <br>
+    <br>
+    <label for="com">Write a Comment</label><br>
+        <textarea name="comment" id="com" cols="30" rows="10"></textarea>
+        <div>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Save">
+        </div>
+      </form>
+  <hr>
+
+  <!--
+    file=>لرفع ملف علي الموقع
+    search=>يستخدم في البحث
+    URL=>لكتابة لينك بداخله
+    Date=>لاختيار التاريخ كامل
+    month=>لاختيار التاريخ بالشهور
+    week=>لاختيار التاريخ بالاسبوع
+    time=>لاختيار الوقت
+  -->
+      <form>
+        <div>
+          <label>Upload</label>
+          <input type="file">
+        </div>
+    <br>
+        <div>
+          <label>Search</label>
+          <input type="search">
+        </div>
+    <br>
+        <div>
+          <label>URL</label>
+          <input type="url">
+        </div>
+    <br>
+        <div>
+          <label>Date</label>
+          <input type="date">
+        </div>
+    <br>
+        <div>
+          <label>Month</label>
+          <input type="month">
+        </div>
+    <br>
+        <div>
+          <label>Week</label>
+          <input type="week">
+        </div>
+    <br>
+        <div>
+          <label>Time</label>
+          <input type="time">
+        </div>
+    <br>
+        <div>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Save">
+        </div>
+      </form>
+    <hr>
+
+  <!--
+    novalidate=>يمكنك استخدامه في مرحل التجربه ليرسل البيانات بدون الكتابه فيها
+    target=_blank=>يرسل البيانات في صفحه جديده
+    datalist=>ولكن هنا يمكن البحث في الحقل عن طريق الكتابهselectمثل ال
+  -->
+      <form novalidate target="_blank">
+        <div>
+          <label for="1d">Choose</label>
+          <input list="programing" name="prog" id="1d">
+          <datalist id="programing">
+            <option value="C#">
+            <option value="C++">
+            <option value="Python">
+            <option value="PHP">
+            <option value="HTML">
+            <option value="JavaScript">
+            <option value="CSS">
+            <option value="Java">
+          </datalist>
+        </div>
+    <br>
+        <div>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Save">
+        </div>
+      </form>
+    <hr>
+
+  <!--
+    q=>inlineيكتب بداخلها حكمه ليكون النص بداخلها بين دابل كود وهوا عنصر 
+    blockquote=>blockيستخدم لكتابة حكمه بداخله ولكن هوا عنصر 
+    button=>زر يستخدم في عرض صفحه او عمل مهمه معينه
+    wbr=>يستخدم لانشاء سطر جديد في القطع الطويله
+    Bdi=>لعز العنصر عن اتجاه الصفحه
+  -->
+      <q>This Is Wise World</q>
+      <blockquote>This Is Wise World</blockquote>
+      <button>Click</button>
+      <div>
+        <wbr>Lorem ipsum dolor sit amet consectetur adipisicing elit
+        <wbr>Excepturi et ratione explicabo est accusantium quas commodi
+        <wbr>blanditiis minima temporibus consectetur dolore impedit odi
+        <wbr>autem perferendis illo Vero consequatur vel quos
+      </div>
+      <p>اخذت 2 slide</p>
+      <p><bdi>اخذت</bdi> 2 slide</p>
+    <hr>
+
+  <!--
+    code=>يظهر النص بداخله كما هوا علي الصفحه ولكن بدون السطور وغالبا يكتب بداخله اكواد لغات برمجه
+    pre=>يظهر النص بداخله بكل ما فيه وبدون تغيير حتي الاسطر
+    iframe=>يستخدم لاستدعاء موقع في صفحتك
+  -->
+      <code>
+        var x = 10;
+        var y = 20;
+        console.log(x = y);
+      </code>
+      <p>
+        This Is 
+        P
+        New Line
+        New Line
+      </p>
+      <pre>
+          This Is 
+          P
+          New Line
+          New Line
+      </pre>
+      <pre>
+        var x = 10;
+        var y = 20;
+        console.log(x = y);
+      </pre>
+      <iframe src="yousef.html" width="800px" height="400px"></iframe>
+    <hr>
+  <!--
+    Aaccessibility=>هي امكانية الوصول وتستخدم للاشخاص الكفيفين وذوي الاحتياجات 
+    Tab=>هوا يستخدم للتنقل بين الازرار واللينكات
+    note 1=>Tabلكي يكون العنصر زر وينقل عليه بواسطة buttonمن الممكن استخدام 
+    lang=>لتعيين لغة الصفحه htmlسمه تضاف لتاج ال
+  -->
+      <form>
+        <label for="1">Username</label>
+        <input id="1" type="text">
+        <button>Send</button>
+        <button>Reset</button>
+      </form>
+
+  <!--
+    
+  -->
+  </body>
+</html>
